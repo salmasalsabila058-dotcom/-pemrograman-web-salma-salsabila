@@ -1,0 +1,145 @@
+/* Mengatur font klasik romantis dan latar belakang gradasi pink lembut */
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #ffe4e1 0%, #fff0f5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Kotak kartu profil dengan border putus-putus khas renda baju */
+.profile-card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    padding: 35px 25px;
+    border-radius: 20px;
+    border: 2px dashed #ffb6c1;
+    box-shadow: 0 8px 25px rgba(255, 182, 193, 0.4);
+    text-align: center;
+    position: relative;
+}
+
+/* Wadah foto profil agar pita bisa menempel di atasnya */
+.img-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.fotoprofil {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.gambar-profil {
+    width: 150px ;    
+    height: 150px ;   
+    border-radius: 50% ; 
+    object-fit: cover;          
+    border: 3px solid #ffb6c1;   
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+/* Dekorasi stiker pita di sudut foto */
+.bow-overlay {
+    position: absolute;
+    top: -8px;
+    right: 8px;
+    font-size: 30px;
+}
+
+/* Gaya teks nama (warna mawar gelap & miring) */
+.name {
+    color: #d47a84;
+    font-size: 26px;
+    margin: 10px 0 5px 0;
+    font-style: italic;
+}
+
+/* Gaya teks informasi NIM */
+.meta-info {
+    color: #8b7d7d;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+/* Gaya paragraf deskripsi */
+.description {
+    color: #6b5b5b;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Area kotak daftar hobi */
+.hobbies-section {
+    text-align: left;
+    background-color: #fff5f5;
+    padding: 15px 20px;
+    border-radius: 12px;
+    border: 1px solid #ffe4e1;
+    margin-bottom: 25px;
+}
+
+.hobbies-section h3 {
+    margin-top: 0;
+    color: #d47a84;
+    font-size: 15px;
+}
+
+/* Mengubah poin list biasa menjadi bunga sakura */
+.hobbies-list {
+    margin: 0;
+    padding-left: 20px;
+    color: #554444;
+    list-style-type: '🌸 ';
+}
+
+.hobbies-list li {
+    margin-bottom: 6px;
+    padding-left: 5px;
+}
+
+/* Area tombol tautan sosial media */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+/* Tombol oval imut dengan shadow pink lembut */
+.btn {
+    display: inline-block;
+    padding: 10px 22px;
+    background-color: #ffb6c1;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.5);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff9aa2;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: #f7d6d8;
+    color: #d47a84;
+    box-shadow: none;
+    border: 1px solid #ffb6c1;
+}
+
+.btn-secondary:hover {
+    background-color: #ffb6c1;
+    color: white;
+}
